@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5774259-6f08-4ed6-a96c-591637f12fc0" name="Changes" comment="sveed">
+    <list default="true" id="b5774259-6f08-4ed6-a96c-591637f12fc0" name="Changes" comment="ncnjbdsv">
+      <change afterPath="$PROJECT_DIR$/exportToHTML/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/main.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/mainmitarray.js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="4" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../informatiik/exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,6 +36,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -41,16 +50,20 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26c9XcoketlEDh8vh125EDQ45cX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -81,7 +94,7 @@
       <workItem from="1647771467101" duration="6425000" />
       <workItem from="1647777997001" duration="1706000" />
       <workItem from="1647963682113" duration="5917000" />
-      <workItem from="1648050849944" duration="376000" />
+      <workItem from="1648050849944" duration="1659000" />
     </task>
     <task id="LOCAL-00001" summary="ncnjbdsv">
       <created>1647983204120</created>
@@ -90,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647983204120</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ncnjbdsv">
+      <created>1648051510995</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648051510995</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,15 +121,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="funktioniert nicht" />
     <MESSAGE value="Informatikaa" />
+    <MESSAGE value="sveed" />
     <MESSAGE value="ncnjbdsv" />
     <option name="LAST_COMMIT_MESSAGE" value="ncnjbdsv" />
   </component>

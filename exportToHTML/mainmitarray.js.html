@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>mainmitarray.js</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #6897bb;}
+.s4 { color: #808080;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+mainmitarray.js</font>
+</center></td></tr></table>
+<pre><span class="s0">let </span><span class="s1">eingabeFelder = [</span><span class="s2">'tfNote1'</span><span class="s0">,</span><span class="s2">'tfNote2'</span><span class="s0">,</span><span class="s2">'tfNote3'</span><span class="s0">,</span><span class="s2">'tfNote4'</span><span class="s0">,</span><span class="s2">'tfNote5'</span><span class="s0">,</span><span class="s2">'tfNote6'</span><span class="s1">]</span>
+<span class="s0">let </span><span class="s1">noten = []</span><span class="s0">;</span>
+
+
+<span class="s0">let </span><span class="s1">summe = </span><span class="s3">0</span><span class="s0">; </span><span class="s4">//aufsummierte punkte</span>
+<span class="s0">let </span><span class="s1">anzahlNoten = </span><span class="s3">0</span><span class="s0">;</span>
+<span class="s0">let </span><span class="s1">ergebnis</span><span class="s0">; </span><span class="s4">//erechneter durchschnitt</span>
+<span class="s0">let </span><span class="s1">aktuelleEingabe</span><span class="s0">;</span>
+
+
+
+
+<span class="s4">//noten auslesen</span>
+
+
+<span class="s0">function </span><span class="s1">tfAuslesen(){</span>
+
+    <span class="s1">anzahlNoten=</span><span class="s3">0</span>
+    <span class="s1">summe=</span><span class="s3">0</span>
+
+    <span class="s0">for </span><span class="s1">(</span><span class="s0">let </span><span class="s1">i = </span><span class="s3">0</span><span class="s0">; </span><span class="s1">i &lt; eingabeFelder.lenght</span><span class="s0">; </span><span class="s1">i = i + </span><span class="s3">1</span><span class="s1">)</span>
+        <span class="s1">aktuelleEingabe = parseInt(document.getElementById(eingabeFelder[i]).value)</span><span class="s0">;</span>
+    <span class="s1">eingabeUeberpruefung(aktuelleEingabe)</span><span class="s0">;</span>
+    <span class="s1">ergebnis = summe/anzahlNoten</span><span class="s0">;</span>
+
+    <span class="s1">document.getElementById(</span><span class="s2">&quot;ausgabe&quot;</span><span class="s1">).innerHTML = ergebnis</span><span class="s0">;</span>
+
+    <span class="s4">//Farbänderung je nach Punkzahl</span>
+
+    <span class="s0">if </span><span class="s1">(ergebnis &lt; </span><span class="s3">6</span><span class="s1">) {document.getElementById(</span><span class="s2">&quot;ausgabe&quot;</span><span class="s1">).style.color = </span><span class="s2">&quot;crimson&quot;</span><span class="s1">}</span>
+    <span class="s0">else </span><span class="s1">{document.getElementById(</span><span class="s2">&quot;ausgabe&quot;</span><span class="s1">).style.color = </span><span class="s2">&quot;orange&quot;</span><span class="s1">}</span>
+
+    <span class="s0">if </span><span class="s1">(ergebnis &gt; </span><span class="s3">10</span><span class="s1">) {document.getElementById(</span><span class="s2">&quot;ausgabe&quot;</span><span class="s1">).style.color = </span><span class="s2">&quot;green&quot;</span><span class="s1">}</span>
+
+
+
+<span class="s1">}</span>
+
+<span class="s0">function </span><span class="s1">eingabeUeberpruefung(punkte) {</span>
+    <span class="s0">if </span><span class="s1">(isNaN(punkte)){</span>
+        <span class="s1">console.log(</span><span class="s2">&quot;Keine Zahl&quot;</span><span class="s1">)</span><span class="s0">;</span>
+    <span class="s1">} </span><span class="s0">else </span><span class="s1">{</span>
+        <span class="s1">anzahlNoten = anzahlNoten + </span><span class="s3">1</span><span class="s0">;</span>
+        <span class="s1">summe = summe + punkte</span><span class="s0">;</span>
+    <span class="s1">}</span>
+<span class="s1">}</span></pre>
+</body>
+</html>
